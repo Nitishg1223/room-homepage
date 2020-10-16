@@ -1,0 +1,190 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  overflow-x: hidden;
+}
+/* whole section */
+.col-md-5{
+  padding-left: 0;
+}
+.cont
+{
+  margin: 0;
+}
+.title-image{
+
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+height: 470px;
+
+
+}
+.bg-1{
+  background-image:url("images/desktop-image-hero-1.jpg");
+
+}
+.bg-2{
+  background-image: url("images/desktop-image-hero-2.jpg");
+
+}
+.bg-3{
+  background-image: url("images/desktop-image-hero-3.jpg");
+
+}
+/* navigation bar */
+.navbar{
+  margin-top:50px;
+  margin-left: 50px;
+}
+.navbar-brand{
+font-weight: 600;
+font-size:1.5rem;
+margin-right:40px;
+
+}
+.nav-item{
+  color:#fff;
+  margin-left:20px;
+}
+/* right upper text section */
+.title-text-section{
+  padding-top:10%;
+  padding-left:12%;
+  padding-right: 14%;
+}
+.title-text{
+  margin-top: 30px;
+  font-size: 14px;
+  color: hsl(0, 0%, 63%);
+}
+.shop-now{
+  color:hsl(0, 0%, 27%);
+  font-size: 16px;
+  letter-spacing: 1rem;
+}
+/* for javascript */
+.para-hide{
+  visibility: hidden;
+  display: none;
+}
+
+.para-visible{
+  visibility: visible;
+  display: block;
+}
+.slide-icon-2{
+  visibility: hidden;
+  display: none;
+}
+
+/* icons of forward and backward */
+.slide-icon-1{
+  margin-top:48px;
+}
+.prev-icon{
+  background-color: #000;
+  display:inline-block;
+
+  height: 70px;
+  width: 96px;
+}
+.prev-icon:hover{
+  cursor: pointer;
+}
+.next-icon{
+  background-color: #000;
+  display:inline-block;
+  height: 70px;
+  width: 96px;
+}
+.next-icon:hover{
+  cursor: pointer;
+}
+.prev-icon-img{
+  margin-top: 20%;
+  margin-left: 30%;
+
+}
+.next-icon-img{
+  margin-top: 20%;
+  margin-left: 30%;
+}
+/* lower section */
+.lower-text{
+  margin-right:30px;
+  padding-top:70px;
+  padding-left:50px;
+
+}
+.lower-heading{
+
+  letter-spacing: .25rem;
+}
+.lower-para{
+  font-size:14px;
+
+  color: hsl(0, 0%, 63%);
+}
+.attribution{
+  text-align:center;
+}
+/* for phone */
+.brand-2{
+  visibility: hidden;
+  display: none;
+}
+@media (max-width:800px){
+  .bg-1{
+    background-image:url("images/mobile-image-hero-1.jpg");
+
+  }
+  .bg-2{
+    background-image: url("images/mobile-image-hero-2.jpg");
+
+  }
+  .bg-3{
+    background-image: url("images/mobile-image-hero-3.jpg");
+
+  }
+  .title-image{
+
+    background-repeat: no-repeat;
+      background-size: 100% 100%;
+    height: 360px;}
+  .slide-icon-1{
+    visibility: hidden;
+    display: none;
+  }
+  .slide-icon-2{
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top:290px;
+  }
+
+.brand-2{
+  visibility: visible;
+  display: inline-block;
+}
+.brand-1{
+  visibility: visible;
+  display: none;
+}
+.navbar{
+  margin-left: 10px;
+}
+.brand-visible{
+  visibility: visible;
+  display: inline-block;
+
+}
+.brand-hide{
+  visibility: hidden;
+  display: none;
+}
+.lower-img-1{
+  margin-top:40px;
+}
+.lower-img-2{
+  margin-top:30px;
+}
+}
